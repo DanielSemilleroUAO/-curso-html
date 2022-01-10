@@ -1,0 +1,40 @@
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* border-spacing: 5px; */
+    padding: 5px;
+}
+
+caption {
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    line-height: 70px;
+}
+
+th {
+    color: whitesmoke;
+    background-color: blue;
+}
+
+/* Reglones pares */
+tr:nth-child(even) {
+    background-color: burlywood;
+}
+
+/* Reglones impares */
+tr:nth-child(odd) {
+    background-color: blanchedalmond;
+}
+
+/* td {
+    text-align: center;
+}
+
+th {
+    text-align: left;
+} */
